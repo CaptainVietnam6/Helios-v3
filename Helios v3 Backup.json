@@ -1,6 +1,6 @@
 {
 	"generatedBy": "10.7.0",
-	"apiVersion": "1.41.0",
+	"apiVersion": "1.43.0",
 	"profiles": [
 		{
 			"PID": {
@@ -57,7 +57,8 @@
 				"pitch_rate_limit": 1998,
 				"yaw_rate_limit": 1998,
 				"throttleLimitType": 0,
-				"throttleLimitPercent": 100
+				"throttleLimitPercent": 100,
+				"rates_type": 0
 			},
 			"AccTrim": [
 				0,
@@ -656,7 +657,8 @@
 				"pitch_rate_limit": 1998,
 				"yaw_rate_limit": 1998,
 				"throttleLimitType": 0,
-				"throttleLimitPercent": 100
+				"throttleLimitPercent": 100,
+				"rates_type": 0
 			},
 			"AccTrim": [
 				0,
@@ -1255,7 +1257,8 @@
 				"pitch_rate_limit": 1998,
 				"yaw_rate_limit": 1998,
 				"throttleLimitType": 0,
-				"throttleLimitPercent": 100
+				"throttleLimitPercent": 100,
+				"rates_type": 0
 			},
 			"AccTrim": [
 				0,
@@ -2289,7 +2292,7 @@
 		"pitch": 0,
 		"yaw": 0
 	},
-	"CRAFT_NAME": "Mosquito",
+	"CRAFT_NAME": "Helios v3",
 	"DISPLAY_NAME": "JOE PILOT",
 	"MIXER_CONFIG": {
 		"mixer": 3,
@@ -2310,12 +2313,12 @@
 		"gyroUse32kHz": 0,
 		"motorPwmInversion": 0,
 		"gyroHighFsr": 0,
-		"gyroMovementCalibThreshold": 0,
-		"gyroCalibDuration": 0,
+		"gyroMovementCalibThreshold": 48,
+		"gyroCalibDuration": 125,
 		"gyroOffsetYaw": 0,
-		"gyroCheckOverflow": 0,
+		"gyroCheckOverflow": 2,
 		"debugMode": 0,
-		"debugModeCount": 0
+		"debugModeCount": 63
 	},
 	"LED_MODE_COLORS": [
 		{
@@ -2602,7 +2605,7 @@
 		"rcSmoothingDerivativeCutoff": 0,
 		"rcSmoothingInputType": 1,
 		"rcSmoothingDerivativeType": 2,
-		"rcSmoothingAutoSmoothness": 0,
+		"rcSmoothingAutoSmoothness": 10,
 		"usbCdcHidType": 0
 	},
 	"FAILSAFE_CONFIG": {
@@ -2821,7 +2824,7 @@
 					"name": "DYNAMIC_FILTER"
 				}
 			],
-			"_featureMask": 809829448,
+			"_featureMask": 272958536,
 			"_analyticsChanges": {}
 		}
 	},
@@ -2829,8 +2832,8 @@
 		"minthrottle": 1070,
 		"maxthrottle": 2000,
 		"mincommand": 1000,
-		"motor_count": 0,
-		"motor_poles": 0,
+		"motor_count": 4,
+		"motor_poles": 14,
 		"use_dshot_telemetry": false,
 		"use_esc_sensor": false
 	},
