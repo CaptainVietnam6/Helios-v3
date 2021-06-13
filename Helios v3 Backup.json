@@ -39,20 +39,20 @@
 				[]
 			],
 			"RC": {
-				"RC_RATE": 1,
-				"RC_EXPO": 0,
+				"RC_RATE": 1.21,
+				"RC_EXPO": 0.3,
 				"roll_pitch_rate": 0,
-				"roll_rate": 0.7,
-				"pitch_rate": 0.7,
-				"yaw_rate": 0.7,
+				"roll_rate": 0.75,
+				"pitch_rate": 0.75,
+				"yaw_rate": 0.8,
 				"dynamic_THR_PID": 0.5,
 				"throttle_MID": 0.5,
 				"throttle_EXPO": 0,
 				"dynamic_THR_breakpoint": 1500,
-				"RC_YAW_EXPO": 0,
+				"RC_YAW_EXPO": 0.25,
 				"rcYawRate": 1,
-				"rcPitchRate": 1,
-				"RC_PITCH_EXPO": 0,
+				"rcPitchRate": 1.21,
+				"RC_PITCH_EXPO": 0.3,
 				"roll_rate_limit": 1998,
 				"pitch_rate_limit": 1998,
 				"yaw_rate_limit": 1998,
@@ -149,6 +149,14 @@
 					}
 				},
 				{
+					"id": 1,
+					"auxChannelIndex": 3,
+					"range": {
+						"start": 1300,
+						"end": 2100
+					}
+				},
+				{
 					"id": 2,
 					"auxChannelIndex": 5,
 					"range": {
@@ -170,14 +178,6 @@
 					"range": {
 						"start": 1850,
 						"end": 2100
-					}
-				},
-				{
-					"id": 0,
-					"auxChannelIndex": 0,
-					"range": {
-						"start": 900,
-						"end": 900
 					}
 				},
 				{
@@ -639,20 +639,20 @@
 				[]
 			],
 			"RC": {
-				"RC_RATE": 1,
-				"RC_EXPO": 0,
+				"RC_RATE": 1.21,
+				"RC_EXPO": 0.3,
 				"roll_pitch_rate": 0,
-				"roll_rate": 0.7,
-				"pitch_rate": 0.7,
-				"yaw_rate": 0.7,
+				"roll_rate": 0.75,
+				"pitch_rate": 0.75,
+				"yaw_rate": 0.8,
 				"dynamic_THR_PID": 0.5,
 				"throttle_MID": 0.5,
 				"throttle_EXPO": 0,
 				"dynamic_THR_breakpoint": 1500,
-				"RC_YAW_EXPO": 0,
+				"RC_YAW_EXPO": 0.25,
 				"rcYawRate": 1,
-				"rcPitchRate": 1,
-				"RC_PITCH_EXPO": 0,
+				"rcPitchRate": 1.21,
+				"RC_PITCH_EXPO": 0.3,
 				"roll_rate_limit": 1998,
 				"pitch_rate_limit": 1998,
 				"yaw_rate_limit": 1998,
@@ -749,6 +749,14 @@
 					}
 				},
 				{
+					"id": 1,
+					"auxChannelIndex": 3,
+					"range": {
+						"start": 1300,
+						"end": 2100
+					}
+				},
+				{
 					"id": 2,
 					"auxChannelIndex": 5,
 					"range": {
@@ -770,14 +778,6 @@
 					"range": {
 						"start": 1850,
 						"end": 2100
-					}
-				},
-				{
-					"id": 0,
-					"auxChannelIndex": 0,
-					"range": {
-						"start": 900,
-						"end": 900
 					}
 				},
 				{
@@ -1239,20 +1239,20 @@
 				[]
 			],
 			"RC": {
-				"RC_RATE": 1,
-				"RC_EXPO": 0,
+				"RC_RATE": 1.21,
+				"RC_EXPO": 0.3,
 				"roll_pitch_rate": 0,
-				"roll_rate": 0.7,
-				"pitch_rate": 0.7,
-				"yaw_rate": 0.7,
+				"roll_rate": 0.75,
+				"pitch_rate": 0.75,
+				"yaw_rate": 0.8,
 				"dynamic_THR_PID": 0.5,
 				"throttle_MID": 0.5,
 				"throttle_EXPO": 0,
 				"dynamic_THR_breakpoint": 1500,
-				"RC_YAW_EXPO": 0,
+				"RC_YAW_EXPO": 0.25,
 				"rcYawRate": 1,
-				"rcPitchRate": 1,
-				"RC_PITCH_EXPO": 0,
+				"rcPitchRate": 1.21,
+				"RC_PITCH_EXPO": 0.3,
 				"roll_rate_limit": 1998,
 				"pitch_rate_limit": 1998,
 				"yaw_rate_limit": 1998,
@@ -1349,6 +1349,14 @@
 					}
 				},
 				{
+					"id": 1,
+					"auxChannelIndex": 3,
+					"range": {
+						"start": 1300,
+						"end": 2100
+					}
+				},
+				{
 					"id": 2,
 					"auxChannelIndex": 5,
 					"range": {
@@ -1370,14 +1378,6 @@
 					"range": {
 						"start": 1850,
 						"end": 2100
-					}
-				},
-				{
-					"id": 0,
-					"auxChannelIndex": 0,
-					"range": {
-						"start": 900,
-						"end": 900
 					}
 				},
 				{
@@ -2309,7 +2309,7 @@
 		"use_unsyncedPwm": 0,
 		"fast_pwm_protocol": 7,
 		"motor_pwm_rate": 480,
-		"digitalIdlePercent": 15,
+		"digitalIdlePercent": 7.5,
 		"gyroUse32kHz": 0,
 		"motorPwmInversion": 0,
 		"gyroHighFsr": 0,
@@ -2596,7 +2596,7 @@
 		"rcInterpolationInterval": 19,
 		"rcInterpolationChannels": 2,
 		"airModeActivateThreshold": 1250,
-		"rxSpiProtocol": 0,
+		"rxSpiProtocol": 9,
 		"rxSpiId": 0,
 		"rxSpiRfChannelCount": 0,
 		"fpvCamAngleDegrees": 25,
@@ -2964,7 +2964,7 @@
 					"visible": true
 				}
 			],
-			"_beeperMask": 0
+			"_beeperMask": 131072
 		},
 		"dshotBeaconTone": 1,
 		"dshotBeaconConditions": {
@@ -2995,6 +2995,11 @@
 			"linkedTo": 0
 		},
 		{
+			"id": 1,
+			"modeLogic": 0,
+			"linkedTo": 0
+		},
+		{
 			"id": 2,
 			"modeLogic": 0,
 			"linkedTo": 0
@@ -3006,11 +3011,6 @@
 		},
 		{
 			"id": 35,
-			"modeLogic": 0,
-			"linkedTo": 0
-		},
-		{
-			"id": 0,
 			"modeLogic": 0,
 			"linkedTo": 0
 		},
