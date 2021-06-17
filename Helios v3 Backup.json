@@ -1828,6 +1828,7 @@
 			{
 				"identifier": 0,
 				"functions": [
+					"TELEMETRY_FRSKY",
 					"RX_SERIAL"
 				],
 				"msp_baudrate": "115200",
@@ -2305,11 +2306,11 @@
 	},
 	"PID_ADVANCED_CONFIG": {
 		"gyro_sync_denom": 1,
-		"pid_process_denom": 16,
+		"pid_process_denom": 2,
 		"use_unsyncedPwm": 0,
 		"fast_pwm_protocol": 7,
 		"motor_pwm_rate": 480,
-		"digitalIdlePercent": 7.5,
+		"digitalIdlePercent": 5,
 		"gyroUse32kHz": 0,
 		"motorPwmInversion": 0,
 		"gyroHighFsr": 0,
