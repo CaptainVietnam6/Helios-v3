@@ -1828,7 +1828,6 @@
 			{
 				"identifier": 0,
 				"functions": [
-					"TELEMETRY_FRSKY",
 					"RX_SERIAL"
 				],
 				"msp_baudrate": "115200",
@@ -2297,7 +2296,7 @@
 	"DISPLAY_NAME": "JOE PILOT",
 	"MIXER_CONFIG": {
 		"mixer": 3,
-		"reverseMotorDir": 0
+		"reverseMotorDir": 1
 	},
 	"SENSOR_CONFIG": {
 		"acc_hardware": 0,
@@ -2692,7 +2691,7 @@
 		}
 	],
 	"RSSI_CONFIG": {
-		"channel": 0
+		"channel": 12
 	},
 	"FEATURE_CONFIG": {
 		"features": {
@@ -2825,7 +2824,7 @@
 					"name": "DYNAMIC_FILTER"
 				}
 			],
-			"_featureMask": 272958536,
+			"_featureMask": 272893000,
 			"_analyticsChanges": {}
 		}
 	},
