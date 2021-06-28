@@ -2611,7 +2611,7 @@
 	"FAILSAFE_CONFIG": {
 		"failsafe_delay": 15,
 		"failsafe_off_delay": 75,
-		"failsafe_throttle": 1292,
+		"failsafe_throttle": 1300,
 		"failsafe_switch_mode": 0,
 		"failsafe_throttle_low_delay": 100,
 		"failsafe_procedure": 0
@@ -2647,15 +2647,15 @@
 		},
 		{
 			"mode": 1,
+			"value": 1100
+		},
+		{
+			"mode": 2,
 			"value": 1500
 		},
 		{
-			"mode": 1,
-			"value": 1500
-		},
-		{
-			"mode": 1,
-			"value": 1500
+			"mode": 2,
+			"value": 1100
 		},
 		{
 			"mode": 1,
@@ -2964,7 +2964,7 @@
 					"visible": true
 				}
 			],
-			"_beeperMask": 131072
+			"_beeperMask": 147744
 		},
 		"dshotBeaconTone": 1,
 		"dshotBeaconConditions": {
